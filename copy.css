@@ -120,7 +120,9 @@ li.home,li.courses
 @font-face
 {
   font-family: first;
-  src: url(https://github.com/YATHARTHVARDAN/YATHARTH.git.io/blob/master/Acme-Regular.ttf);
+  src: url(
+        YATHARTH.git.io/Acme-Regular.ttf
+      );
 }
 @font-face
 {
