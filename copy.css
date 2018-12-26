@@ -127,7 +127,7 @@ li.home,li.courses
 @font-face
 {
   font-family:second;
-  src:url(fonts/roof-runners-active/PG_Roof\ Runners_active_bold-it.ttf);
+  src:url(font/PG_Roof\ Runners_active_bold-it.ttf);
 }
 
 h1
@@ -167,7 +167,7 @@ div.col_md_3
 @font-face
 {
   font-family: fourth;
-  src: url(fonts/chlorinar/CHLORINR.TTF);
+  src: url(font/CHLORINR.TTF);
 }
 
 figcaption.col3
@@ -180,7 +180,7 @@ figcaption.col3
 @font-face
 {
   font-family: sixth;
-  src: url(fonts/neutronium/Neutronium.ttf);
+  src: url(font/Neutronium.ttf);
 }
 
 /*img.change
@@ -217,7 +217,7 @@ div.image1
 @font-face
 {
   font-family: fifth;
-  src: url(fonts/armed/armed-webfont.woff);
+  src: url(font/armed-webfont.woff);
 }
 
 p.inside
@@ -235,7 +235,7 @@ p.inside
 @font-face
 {
   font-family: seventh;
-  src: url(fonts/libel-suit/libel-suit-rg.ttf);
+  src: url(font/libel-suit-rg.ttf);
 }
 
 div.txt2,div.txt4
