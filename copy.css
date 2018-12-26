@@ -127,11 +127,7 @@ li.home,li.courses
 @font-face
 {
   font-family:second;
-  src:url(
-      
-        YATHARTH.git.io/font/PG_Roof Runners_active_bold-it.ttf
-      
-  );
+  src:url(font/PG_Roof Runners_active_bold-it.ttf);
 }
 
 h1
