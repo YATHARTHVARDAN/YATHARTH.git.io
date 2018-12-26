@@ -1,0 +1,244 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul
+{
+   list-style-type: none;margin : 0%;padding : 0%;overflow : hidden;font-size: 100%;font-weight: bold;width:75%;float:right;position: relative;right:20%;
+ }
+li
+{ color:rgb(177, 174, 174); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  float:left;display:block;text-align:center;padding: 2%;
+}
+ div.main_1
+ {
+     background-image: url("pics/Smile\,breathe\,\ and\ go\ slowly..png"); background-repeat:no-repeat;
+     background-position-y: 20%;  
+     
+}
+
+img.image
+{
+  width : 30%;
+  height : 10%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left:45%;
+}
+
+object
+{ position: absolute;
+   margin-right:25%;
+   }
+
+
+nav{ 
+  
+  vertical-align: top;
+  position: relative;
+  bottom:40%;
+  left:50%;
+  
+}
+
+
+
+
+
+p.reg
+{
+  color:white;
+  background-color:#fcc601;
+  font-size: 150%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height:18%;
+  width:45%;
+  padding-left:3%;
+  padding-right:3%;
+  padding-top:3%;
+  padding-bottom:3%;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-weight: bold;
+}
+
+p.reg:hover,p.reg:focus
+{
+  box-shadow: 4px 4px 4px 4px  #272222;
+  cursor: pointer;
+}
+
+
+
+
+li.but
+{background:#fcc601;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+ color:white;
+ font-weight: bold;
+ font-size:110%;
+}
+
+li.but:hover
+{
+  box-shadow: 2px 2px 2px 2px #bfc9c8;
+}
+li.but:focus
+{
+  box-shadow: 2px 2px 2px 2px #9c9696;
+}
+
+div.main_1
+{ 
+  height : 65%;
+  width : 100%;
+  background-repeat: no-repeat;
+}
+
+div.main_1_1
+{
+ padding-top:20%;
+ padding-bottom:40%;
+ padding-left:38%;
+ 
+
+}
+header
+{
+  margin-top : 2%;
+}
+li.home,li.courses
+{ color:black;}
+
+@font-face
+{
+  font-family: first;
+  src: url(fonts/acme/Acme-Regular.ttf);
+}
+@font-face
+{
+  font-family:second;
+  src:url(fonts/roof-runners-active/PG_Roof\ Runners_active_bold-it.ttf);
+}
+
+h1
+{
+  font-family:first; 
+  font-size : 300%;
+  font-weight: lighter;
+}
+h3
+{
+  font-family:second;
+  color:#272222;
+}
+a:visited
+{
+  
+  color:black;
+
+}
+a:hover,a:focus
+{
+  color:rgb(177, 174, 174);
+}
+
+div.wrapper
+{
+  width:75%;
+  margin:0% auto 7% auto;
+}
+div.col_md_3
+{ align-content: center;
+  width:23%;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+@font-face
+{
+  font-family: fourth;
+  src: url(fonts/chlorinar/CHLORINR.TTF);
+}
+
+figcaption.col3
+{ font-family: fourth;
+   text-align: right;
+  padding-top:10%;
+  font-size: 110%;
+}
+
+@font-face
+{
+  font-family: sixth;
+  src: url(fonts/neutronium/Neutronium.ttf);
+}
+
+/*img.change
+{
+  height:20%;
+  width:20%;
+}
+*/
+div.txt
+{
+  font-family:sixth;
+  font-size:150%;
+}
+
+div.txt3
+{
+  font-family:sixth;
+  font-size:150%;
+  text-align: center;
+}
+h2
+{ text-align: center;
+   font-size: 350%;
+   font-weight: lighter;
+  
+}
+div.image1
+{
+  text-align: center;
+  position:relative;
+  top:4%;
+}
+
+@font-face
+{
+  font-family: fifth;
+  src: url(fonts/armed/armed-webfont.woff);
+}
+
+p.inside
+{
+  font-family: fifth;
+  text-align: center;
+}
+.col_md_4
+{
+  margin-right:auto;
+  margin-left:auto;
+
+}
+
+@font-face
+{
+  font-family: seventh;
+  src: url(fonts/libel-suit/libel-suit-rg.ttf);
+}
+
+div.txt2,div.txt4
+{
+  text-align: center;
+  font-family: seventh;
+  font-size:150%;
+}
