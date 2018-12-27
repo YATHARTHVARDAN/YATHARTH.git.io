@@ -169,11 +169,15 @@ div.col_md_3
 }
 
 div.col_md_3>figure>img
-{
+{ align-self: center;
   height:90%;
   width:90%;
 }
-
+div.col_sm_12>figure>img
+{align-self: center;
+  height:120%;
+  width:120%;
+}
 @font-face
 {
   font-family: fourth;
