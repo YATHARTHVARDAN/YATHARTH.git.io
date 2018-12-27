@@ -4,7 +4,7 @@ body
 }
 ul
 {
-   list-style-type: none;margin : 0%;padding : 0%;overflow : hidden;font-size: 100%;font-weight: bold;width:75%;float:right;position: relative;right:20%;
+   list-style-type: none;margin : 0%;padding : 0%;overflow : hidden;font-size: 100%;font-weight: bold;width:75%;float:right;/*position: relative;right:20%;*/
  }
 li
 { color:rgb(177, 174, 174); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -19,12 +19,12 @@ li
 
 img.image
 {
-  width : 30%;
-  height : 10%;
+  width : 18%;
+  height : 8%;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
-  left:45%;
+  /*position: relative;
+  left:45%;*/
 }
 
 object
@@ -36,9 +36,9 @@ object
 nav{ 
   
   vertical-align: top;
-  position: relative;
+  /*position: relative;
   bottom:40%;
-  left:50%;
+  left:50%;*/
   
 }
 
@@ -68,7 +68,7 @@ p.reg
 
 p.reg:hover,p.reg:focus
 {
-  box-shadow: 4px 4px 4px 4px  #272222;
+  box-shadow: 4px 4px 4px 4px  #ffe37d;
   cursor: pointer;
 }
 
@@ -154,14 +154,20 @@ a:hover,a:focus
 
 div.wrapper
 {
-  width:75%;
+
   margin:0% auto 7% auto;
 }
 div.col_md_3
 { align-content: center;
-  width:23%;
+  width:20%;
   margin-right:auto;
   margin-left:auto;
+}
+
+div.col_md_3>figure>img
+{
+  height:90%;
+  width:90%;
 }
 
 @font-face
@@ -183,12 +189,7 @@ figcaption.col3
   src: url(font/Neutronium.ttf);
 }
 
-/*img.change
-{
-  height:20%;
-  width:20%;
-}
-*/
+
 div.txt
 {
   font-family:sixth;
