@@ -161,19 +161,19 @@ div.wrapper
 
   margin:0% auto 7% auto;
 }
-div.col_md_3
+div.col-md-3
 { align-content: center;
   width:20%;
   margin-right:auto;
   margin-left:auto;
 }
 
-div.col_md_3>figure>img
+div.col-md-3>figure>img
 { align-self: center;
   height:90%;
   width:90%;
 }
-div.col_sm_12>figure>img
+div.col-sm-12>figure>img
 {align-self: center;
   height:120%;
   width:120%;
@@ -234,7 +234,7 @@ p.inside
   font-family: fifth;
   text-align: center;
 }
-.col_md_4
+.col-md-4
 {
   margin-right:auto;
   margin-left:auto;
